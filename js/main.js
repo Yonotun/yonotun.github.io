@@ -383,12 +383,12 @@ class MyHeader extends HTMLElement {
 				<ul class="navbar-nav ml-auto">
 				<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-				<li class="nav-item"><a href="attorneys.html" class="nav-link"> Our Team </a></li>
-				<li class="nav-item"><a href="practice-areas.html" class="nav-link">Legal Services</a></li>
-				<li class="nav-item"><a href="Virtual assistance.html" class="nav-link">Virtual Assistance Services</a></li>
+				<li class="nav-item"><a href="attorneys.html" class="nav-link">Our Team</a></li>
+				<li class="nav-item"><a href="practice-areas.html" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="Virtual assistance.html" class="nav-link">Outsourcing</a></li>
 				<li class="nav-item"><a href="https://blog.venelaw.com" class="nav-link">Blog</a></li>
 				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-				<li class="nav-item cta"><a href="https://forms.gle/mdE9qkvCfSCQThA16" target="_blank" class="nav-link">Free Quote</a></li>
+				<li class="nav-item cta"><a href="https://forms.gle/mdE9qkvCfSCQThA16" target="_blank" class="nav-link">Get a Free Quote</a></li>
 				</ul>
 			</div>
 			</div>
@@ -419,7 +419,7 @@ class MyFooter extends HTMLElement {
 		   
 			<div class="col-md">
 			  <div class="ftco-footer-widget mb-4">
-				  <h2 class="ftco-heading-2">___________________________-Have Questions?</h2>
+				  <h2 class="ftco-heading-2">Have Questions?</h2>
 				  <div class="block-23 mb-3">
 					<ul>
 					  <li><span class="icon icon-map-marker"></span><span class="text"> Avenida Urdaneta Esquina de Pelota a Ibarras Edificio Caoma Piso 3 Oficina 306 Caracas, 1030, Distrito Capital</span></li>
