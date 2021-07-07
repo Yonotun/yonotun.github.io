@@ -369,3 +369,112 @@ window.onload = function() {
 
 })(jQuery);
 
+class MyHeader extends HTMLElement {
+	connectedCallback() {
+		this.innerHTML = `
+			<nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+			<div class="container">
+			<a class="navbar-brand" href="index.html">VeneLaw<span>Escritorio Jurídico</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+				<li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
+				<li class="nav-item"><a href="attorneys.html" class="nav-link">Miembros</a></li>
+				<li class="nav-item"><a href="practice-areas.html" class="nav-link">Servicios</a></li>
+				<li class="nav-item"><a href="Virtual assistance.html" class="nav-link">Subcontratación</a></li>
+				<li class="nav-item"><a href="https://blog.venelaw.com" class="nav-link">Blog</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contáctenos</a></li>
+				<li class="nav-item cta"><a href="https://forms.gle/mdE9qkvCfSCQThA16" target="_blank" class="nav-link">Consúltenos</a></li>
+				</ul>
+			</div>
+			</div>
+			</nav>
+		`
+	}
+}
+
+customElements.define('my-header', MyHeader)
+
+
+
+class MyFooter extends HTMLElement {
+	connectedCallback() {
+		this.innerHTML = `
+		<footer class="ftco-footer ftco-bg-dark ftco-section">
+		<div class="container">
+		  <div class="row mb-5">
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4">
+				<h2 class="logo"><a href="#">VeneLaw<span>Escritorio Jurídico</span></a></h2>
+				<p></p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+				  <li class="ftco-animate"><a href="https://twitter.com/venelaw" target="_blank"><span class="icon-twitter"></span></a></li>
+				  <li class="ftco-animate"><a href="https://fb.me/VenelawSC" target="_blank"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/venelaw/?hl=en" target="_blank"><span class="icon-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+		   
+			<div class="col-md">
+			  <div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">¿Alguna Duda?</h2>
+				  <div class="block-23 mb-3">
+					<ul>
+					  <li><span class="icon icon-map-marker"></span><span class="text"> Avenida Urdaneta Esquina de Pelota a Ibarras Edificio Caoma Piso 3 Oficina 306 Caracas, 1030, Distrito Capital</span></li>
+					  <li><a href="tel:582125615804"><span class="icon icon-phone"></span><span class="text">+58 424-2680485</span></a></li>
+					  <li><a href="mailto:info@venelaw.com"><span class="icon icon-envelope"></span><span class="text">info@venelaw.com</span></a></li>
+					</ul>
+				  </div>
+			  </div>
+			</div>
+			<div class="col-md">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Horario</h2>
+				<div class="opening-hours">
+					
+					<p class="pl-3">
+						<span>Lunes a viernes de 8:00 a.m. a 5:00 p.m.</span>
+						
+					</p>
+					
+					<p class="pl-3">
+						<span> Cerrado los fines de semana y los dìas festivos nacionales</span>
+						
+			
+				</div>
+  
+			  </div>
+			  
+			</div>
+			<div class="col-md">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Lenguaje</h2>
+				<div class="opening-hours">
+				
+					<h4><a href="index.html">Español</a></h4>
+					
+  
+					
+					<h4><a href="venelaw.com">English</a></h4>
+					
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  
+			</div>
+		  </div>
+		</div>
+	  </footer>
+		`
+	}
+}
+
+customElements.define('my-footer', MyFooter)
