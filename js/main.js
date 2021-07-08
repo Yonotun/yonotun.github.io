@@ -51,7 +51,7 @@
 
 	// loader
 	var loader = function() {
-		setTimeout(function() { 
+		setTimeout(function() {
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
@@ -143,19 +143,19 @@
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');	
+					navbar.addClass('scrolled');
 				}
-			} 
+			}
 			if (st < 150) {
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
 				}
-			} 
+			}
 			if ( st > 350 ) {
 				if ( !navbar.hasClass('awake') ) {
-					navbar.addClass('awake');	
+					navbar.addClass('awake');
 				}
-				
+
 				if(sd.length > 0) {
 					sd.addClass('sleep');
 				}
@@ -195,7 +195,7 @@
 	};
 
 	var counter = function() {
-		
+
 		$('#section-counter, .hero-wrap, .ftco-counter').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
@@ -212,7 +212,7 @@
 					  }, 7000
 					);
 				});
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -226,7 +226,7 @@
 		$('.ftco-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -248,9 +248,9 @@
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -416,14 +416,14 @@ class MyFooter extends HTMLElement {
 				</ul>
 			  </div>
 			</div>
-		   
+
 			<div class="col-md">
 			  <div class="ftco-footer-widget mb-4">
 				  <h2 class="ftco-heading-2">Have Questions?</h2>
 				  <div class="block-23 mb-3">
 					<ul>
 					  <li><span class="icon icon-map-marker"></span><span class="text"> Avenida Urdaneta Esquina de Pelota a Ibarras Edificio Caoma Piso 3 Oficina 306 Caracas, 1030, Distrito Capital</span></li>
-					  <li><a href="tel:582125615804"><span class="icon icon-phone"></span><span class="text">+58 424-2680485</span></a></li>
+					  <li><a href="tel:584126106446"><span class="icon icon-phone"></span><span class="text">+58 4126106446</span></a></li>
 					  <li><a href="mailto:info@venelaw.com"><span class="icon icon-envelope"></span><span class="text">info@venelaw.com</span></a></li>
 					</ul>
 				  </div>
@@ -433,40 +433,40 @@ class MyFooter extends HTMLElement {
 			   <div class="ftco-footer-widget mb-4">
 				<h2 class="ftco-heading-2">Business Hours</h2>
 				<div class="opening-hours">
-					
+
 					<p class="pl-3">
 						<span>Monday – Friday : 8am to 5pm</span>
-						
+
 					</p>
-					
+
 					<p class="pl-3">
 						<span> Closed on weekends and public holidays in Venezuela</span>
-						
-			
+
+
 				</div>
-  
+
 			  </div>
-			  
+
 			</div>
 			<div class="col-md">
 			   <div class="ftco-footer-widget mb-4">
 				<h2 class="ftco-heading-2">Language</h2>
 				<div class="opening-hours">
-				
+
 					<h4><a href="https://venelaw.com/es">Español</a></h4>
-					
-  
-					
+
+
+
 					<h4><a href="index.html">English</a></h4>
-					
+
 				</div>
 			  </div>
 			</div>
 		  </div>
 		  <div class="row">
 			<div class="col-md-12 text-center">
-  
-			  
+
+
 			</div>
 		  </div>
 		</div>
