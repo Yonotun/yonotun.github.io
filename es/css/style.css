@@ -9526,7 +9526,7 @@ textarea.form-control {
   .block-2 .front {
     -webkit-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
-    background: lightgreen;
+    background: #003A5F;
     z-index: 2;
     background-size: cover;
     background-position: center center;
