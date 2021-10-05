@@ -386,7 +386,7 @@ class MyHeader extends HTMLElement {
 				<li class="nav-item"><a href="attorneys.html" class="nav-link">Miembros</a></li>
 				<li class="nav-item"><a href="practice-areas.html" class="nav-link">Servicios</a></li>
 				<li class="nav-item"><a href="Virtual assistance.html" class="nav-link">Subcontratación</a></li>
-				<li class="nav-item"><a href="https://blog.venelaw.com" class="nav-link">Blog</a></li>
+				<li class="nav-item"><a href="https://blog.venelaw.com" target="_blank" class="nav-link">Blog</a></li>
 				<li class="nav-item"><a href="contact.html" class="nav-link">Contáctenos</a></li>
 				<li class="nav-item cta"><a href="https://forms.gle/mdE9qkvCfSCQThA16" target="_blank" class="nav-link">Consúltenos</a></li>
 				</ul>
